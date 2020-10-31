@@ -1,0 +1,60 @@
+<?php
+$cfg_company="Jewelry & Electronic Exchange";
+$cfg_address="1217 A Sheridan Road Winthrop Harbor, IL 60096";
+$cfg_phone="(847)746-2066";
+$cfg_email="jexxchange@yahoo.com";
+$cfg_fax="";
+$cfg_website="http://jewelryandelectronic.com";
+$cfg_other="All sales are final";
+$cfg_default_tax_rate="7.0";
+$cfg_currency_symbol="$";
+$cfg_theme="serious";
+$cfg_numberForBarcode="Account/Item Number";
+$cfg_language="english.php";
+$cfg_store_code="11";        
+$cfg_startTransNum_with="yymmdd";
+$cfg_configfile="jeconfig/whstore/.jeconfig.php";
+$cfg_dvd_buyprice="";
+$cfg_dvd_sellprice="3";
+$cfg_gamedvd_buyprice="";
+$cfg_gamedvd_sellprice="";
+$cfg_gamedvd_upc="storeupc"; //Values are gamedvdupv or storeupc
+$cfg_itemimg_onpdf="no";
+$cfg_supplierImage_onpdf="no";
+$cfg_fingerprint_onpdf="no";
+$cfg_create_check="no";
+$cfg_SupplierFound_GoToUpdate="yes";
+$cfg_imagesnapmethod="online";
+$cfg_enableimageupload_person="no";
+$cfg_enableimageupload_items="yes";
+$cfg_enableimageupload_jewelry="yes";
+$cfg_enableimageupload_dvd="no";
+$cfg_enableimageupload_gdvd="no";
+$cfg_supplier_form_gender="enabled_not_required";
+$cfg_supplier_form_race="enabled_not_required";
+$cfg_supplier_form_height="enabled_not_required";
+$cfg_supplier_form_weight="enabled_not_required";
+$cfg_supplier_form_haircolor="enabled_not_required";
+$cfg_supplier_form_eyecolor="enabled_not_required";
+$cfg_makePhoneRequired="yes-UseNameSrchCustTbl";
+$cfg_company_city="Winthrop Harbor"; 
+$cfg_pos_version="Version 3.1";
+$cfg_store_state="il"; //il=illinois wi=wisconsin
+$cfg_dvdlookup_version="3";
+$cfg_processForm_version="2"; //1=Insert by getting Autoincrement id value of table 2=Inserts dummy record then get the id value of inserted record(user single login requried)
+$cfg_menulocation="top"; 
+$cfg_headerBGcolor="darkorange";  //Values are darkorange, darkblack and darkblue
+$cfg_enable_CSAlink="yes";
+$cfg_enable_SaleServices="yes"; //Enable Sale of Services. you will Also need to create a category names Services
+$cfg_SaleSrvPanel_enable_enter_srvname_field="no"; //If yes will enable enter service name field on sale panel for the services
+$cfg_SaleSrvPanel_Add_Entered_srvnameToArticleTbl="no"; //If yes will insert the Service Name entered to article table, this will then show under dropdown of services
+$cfg_ShowTenderAmtBox_as2nd_Step="no"; //yes=hide tender amount box until button is clicked no=will show tender amount on same page
+$cfg_allow_salesclerk_tocreate_extractfile="no";
+$cfg_allow_salesclerk_view_buyprice="yes";
+$cfg_enable_deleteSAPDF="no";
+$cfg_enable_PopUpUpdateform="yes";
+$cfg_maxupc_number="1000";
+$cfg_create_extractFilename="createcsvfile_whstore.php";
+$cfg_sftpmsg_file_pathName="full path/sftpmessage.txt"; 
+$cfg_UnderMaintenance="yes";
+?>
